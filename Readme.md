@@ -10,7 +10,7 @@ This app allows you to create .txt file(s) containing the multiplication tables 
 
 ## Technologies
 
-Dillinger uses a number of open source projects to work properly:
+It uses these frameworks/libraries to work properly:
 
 - [node.js](https://nodejs.org/en) - evented I/O for the backend
 - [FileSystem](https://nodejs.org/dist/latest-v18.x/docs/api/fs.html) - This module enables interacting with the file system in a way modeled on standard POSIX functions.

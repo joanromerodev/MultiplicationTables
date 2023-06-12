@@ -33,6 +33,34 @@ If you got the version with no problem, you can now clone this app using Git in 
 git clone https://github.com/joanromerodev/MultiplicationTables
 ```
 
+## How to use
+
+Once you have already clonned the repository, you'll be able to use it as soon as you run the following command from your directory:
+
+```
+node app.js
+```
+
+You'll automatically notice that 5 files will get created per default. Each file contains the multiplication table corresponding to the multiple selected.
+
+By changing the variable tableFilesAmount you'll determine the amount of files you want to create. Starting from 1 to the changed amount, you'll get the multiple last value. For example, let's say that you want to create 8 .txt files containing the multiplication tables, means that you'll get something like this:
+
+| table-1.txt | table-2.txt | ... | table-8.txt |
+| ----------- | ----------- | --- | ----------- |
+| 1 x 1 = 1   | 2 x 1 = 2   | ... | 8 x 1 = 8   |
+| 1 x 2 = 2   | 2 x 2 = 4   | ..  | 8 x 2 = 16  |
+| ...         | ...         | ... | ...         |
+| 1 x 10 = 10 | 2 x 10 = 20 | ... | 8 x 10 = 80 |
+
+To change the amount of files to create, you can just do this:
+
+```js
+//previous value
+const tableFilesAmount = 5;
+//new value
+const tableFilesAmount = 8;
+```
+
 ## License
 
 MIT
